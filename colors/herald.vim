@@ -14,9 +14,6 @@ let colors_name = "herald"
 
 set background=dark
 
-" Set some syntax-related variables
-let ruby_operators = 1
-
 if has("gui_running") || has('termguicolors') && &termguicolors
 
   " -> Text; Miscellaneous
