@@ -17,7 +17,7 @@ set background=dark
 " Set some syntax-related variables
 let ruby_operators = 1
 
-if has("gui_running")
+if has("gui_running") || has('termguicolors') && &termguicolors
 
   " -> Text; Miscellaneous
   hi Normal         guibg=#1F1F1F guifg=#D0D0D0 gui=none
