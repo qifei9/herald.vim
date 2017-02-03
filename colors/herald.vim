@@ -1,8 +1,9 @@
 " Vim color file
 " Name:       herald.vim
 " Author:     Fabio Cevasco <h3rald@h3rald.com>
-" Version:    0.2.2
+" Version:    0.2.3
 " Notes:      Supports 8, 16, 256 and 16,777,216 (RGB) color modes
+" Modified by Fei Qi <qifei9@gmail.com>
 
 hi clear
 
