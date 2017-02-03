@@ -35,8 +35,8 @@ if has("gui_running") || has('termguicolors') && &termguicolors
   hi CursorLine     guibg=#000000               gui=none
 
   " -> Folding
-  hi FoldColumn     guibg=#001336 guifg=#003DAD gui=none
-  hi Folded         guibg=#001336 guifg=#003DAD gui=none
+  hi FoldColumn     guibg=#1F1F1F guifg=#003DAD gui=none
+  hi Folded         guibg=#1F1F1F guifg=#003DAD gui=none
 
   " -> Line info
   hi LineNr         guibg=#000000 guifg=#696567 gui=none
