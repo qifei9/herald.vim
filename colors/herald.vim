@@ -20,6 +20,7 @@ if has("gui_running") || has('termguicolors') && &termguicolors
   " -> Text; Miscellaneous
   hi Normal         guibg=#1F1F1F guifg=#D0D0D0 gui=none
   hi SpecialKey     guibg=#1F1F1F guifg=#E783E9 gui=none
+  hi Conceal        guibg=#1F1F1F guifg=#4E4E4E gui=none
   hi VertSplit      guibg=#1F1F1F guifg=#FFEE68 gui=none
   hi SignColumn     guibg=#1F1F1F guifg=#BF81FA gui=none
   hi NonText        guibg=#1F1F1F guifg=#FC6984 gui=none
