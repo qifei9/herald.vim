@@ -60,7 +60,7 @@ if has("gui_running") || has('termguicolors') && &termguicolors
   hi DiffText       guibg=#12457D guifg=#ED9000 gui=underline
 
   " -> Menu
-  hi Pmenu          guibg=#140100 guifg=#660300 gui=none
+  hi Pmenu          guibg=#140100 guifg=#C10000 gui=none
   hi PmenuSel       guibg=#F17A00 guifg=#4C0200 gui=none
   hi PmenuSbar      guibg=#430300               gui=none
   hi PmenuThumb     guibg=#720300               gui=none
