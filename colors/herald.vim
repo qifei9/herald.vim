@@ -76,23 +76,23 @@ if has("gui_running") || has('termguicolors') && &termguicolors
   hi VisualNOS      guibg=#000000 guifg=#696567 gui=none
 
   " -> Code
-  hi Comment        guibg=#1F1F1F guifg=#696567 gui=none
-  hi Constant       guibg=#1F1F1F guifg=#6DF584 gui=none
-  hi String         guibg=#1F1F1F guifg=#FFB539 gui=none
-  hi Error          guibg=#1F1F1F guifg=#FC4234 gui=none
-  hi Identifier     guibg=#1F1F1F guifg=#70BDF1 gui=none
-  hi Function       guibg=#1F1F1F guifg=#90CBF1 gui=none
-  hi Ignore         guibg=#1F1F1F guifg=#1F1F1F gui=none
-  hi MatchParen     guibg=#FFA500 guifg=#1F1F1F gui=none
-  hi PreProc        guibg=#1F1F1F guifg=#BF81FA gui=none
-  hi Special        guibg=#1F1F1F guifg=#FFEE68 gui=none
-  hi Todo           guibg=#1F1F1F guifg=#FC4234 gui=bold
-  hi Underlined     guibg=#1F1F1F guifg=#FC4234 gui=underline
-  hi Statement      guibg=#1F1F1F guifg=#E783E9 gui=none
-  hi Operator       guibg=#1F1F1F guifg=#FC6984 gui=none
-  hi Delimiter      guibg=#1F1F1F guifg=#FC6984 gui=none
-  hi Type           guibg=#1F1F1F guifg=#FFEE68 gui=none
-  hi Exception      guibg=#1F1F1F guifg=#FC4234 gui=none
+  hi Comment                      guifg=#696567 gui=none
+  hi Constant                     guifg=#6DF584 gui=none
+  hi String                       guifg=#FFB539 gui=none
+  hi Error                        guifg=#FC4234 gui=none
+  hi Identifier                   guifg=#70BDF1 gui=none
+  hi Function                     guifg=#90CBF1 gui=none
+  hi Ignore                       guifg=#1F1F1F gui=none
+  hi MatchParen                   guifg=#1F1F1F gui=none
+  hi PreProc                      guifg=#BF81FA gui=none
+  hi Special                      guifg=#FFEE68 gui=none
+  hi Todo                         guifg=#FC4234 gui=bold
+  hi Underlined                   guifg=#FC4234 gui=underline
+  hi Statement                    guifg=#E783E9 gui=none
+  hi Operator                     guifg=#FC6984 gui=none
+  hi Delimiter                    guifg=#FC6984 gui=none
+  hi Type                         guifg=#FFEE68 gui=none
+  hi Exception                    guifg=#FC4234 gui=none
 
   " -> HTML-specific
   hi htmlBold                 guibg=#1F1F1F guifg=#D0D0D0 gui=bold
